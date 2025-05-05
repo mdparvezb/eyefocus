@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Custom styles */
+.brand-gradient {
+  background: linear-gradient(135deg, #4f46e5 0%, #10b981 100%);
+}
+
+.frame-card {
+  transition: all 0.3s ease;
+}
+
+.frame-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 400px;
+}
