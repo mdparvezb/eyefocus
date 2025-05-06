@@ -49,7 +49,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Contact Us</h3>
+            <h3 className="text-xl font-bold mb-4"><Link to='/contact'>Contact Us</Link></h3>
             <div className="space-y-2">
               <div className="flex items-center">
                 <FiPhone className="mr-2" />
